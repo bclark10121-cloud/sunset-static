@@ -1,9 +1,10 @@
 # N19 Sunset Static: backlog
 
-Updated 2026-11-19 (v0.6.0). MVP plan complete. Stage 2 complete. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
+Updated 2026-11-19 (v0.7.0). MVP plan complete. Two stages, no bosses. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-19: v0.7.0 New enemies, no bosses. BC: no boss battles. The Bass Tower, The Big Disc and The High Score are gone: each stage ends with a final wave section. Four new enemies made with Gemini and Meshy: the Strobe Pair and Ring Carrier in Stage 1, the Prize Claw and Bumper Bot in Stage 2.
 - 2026-11-19: v0.6.0 Stage 2 finished (idea 1, part 2). The High Score boss (Paddle Ball, Snake and Block Drop on its screen), Stage 2 music Bit Quest (BC's pick), music and tempo per stage, Stage 2 colorblind check.
 - 2026-11-19: v0.5.0 Stage 2 "Insert Coin" (idea 1, part 1). The arcade cabinet world, Blips, coin bugs, coins, the checkered floor, Stage 2 opens after The Big Disc, Menu stage rows.
 - 2026-11-19: v0.4.0 Smoother flying and beat sync (idea 2). Ease in and out, smoothed drags, screen-pixel drawing, steadier tilt. Waves, enemy shots and bosses on the beat of the play music. Grid pulse locked to the music.
@@ -15,9 +16,10 @@ Updated 2026-11-19 (v0.6.0). MVP plan complete. Stage 2 complete. BC decides the
 
 ## Now
 
-- Playtest sweep (2026-11-19): every check and judgment call for this game is on https://bclark10121-cloud.github.io/bc-decisions/2026-11-19-playtest-sweep/. BC's pasted picks replace this list.
+- Playtest sweep results (BC, 2026-11-19, 8:59 PM):
+  - Good: Stage 2 Insert Coin and the upright view on his phone.
 - MVP done (BC, 2026-11-19, 8:11 PM: "it was fun to play throuhg").
-- BC's check of v0.6.0: The High Score and Bit Quest.
+- BC's check of v0.7.0: the four new enemies and stages without bosses.
 - Next: BC picks from the ideas below, or Stage 3 (a highway at night or a city in the rain).
 
 ## Asked for by BC, not built yet
@@ -27,7 +29,7 @@ Updated 2026-11-19 (v0.6.0). MVP plan complete. Stage 2 complete. BC decides the
 ## Ideas to choose from (BC picks by number)
 
 3. More pod shots, such as a ground-hugging shot and a reflect shot.
-4. Boss rush mode (three bosses now: the Bass Tower, The Big Disc and The High Score).
+9. Remake the eight code-drawn enemies (drifter, mini, turret, charger, splitter, shell, Blip, coin bug) with Gemini and Meshy, like the 0.7 enemies (BC, 2026-11-19: keep them for now).
 5. Ship select, each ship with its own charge beam.
 6. Score attack per section, personal bests only (G4.4).
 7. Photo mode from kit block K10.
@@ -43,6 +45,7 @@ Updated 2026-11-19 (v0.6.0). MVP plan complete. Stage 2 complete. BC decides the
 
 ## Not planned (they break the pillars)
 
+- Boss battles (BC, 2026-11-19: "I dont want boss battles though, just enemies in each level"). The 0.2 to 0.6 bosses were removed in 0.7. Boss rush mode (old idea 4) is dropped.
 - Lives, game over or a restart from the start of the stage.
 - Losing the pod or pickups on a hit.
 - Online leaderboards (G4.4).
@@ -62,6 +65,9 @@ Updated 2026-11-19 (v0.6.0). MVP plan complete. Stage 2 complete. BC decides the
 - 2026-11-19, 8:25 PM: "Sunset Static Stage 2 picks: Stage 2 setting: Arcade cabinet world." From the Stage 2 decision page.
 - 2026-11-19: "Finish Stage 2 (0.6)". The High Score boss, Stage 2 music and checks.
 - 2026-11-19, 8:45 PM: "Sunset Static Stage 2 music pick: Stage 2 play music: Bit Quest (Kevin MacLeod)." From the Stage 2 music decision page.
+- 2026-11-19, 9:03 PM: "move on to adding new enemies using the gemini meshy workflow. I dont want boss battles though,, just enemies in each level". Picks: remove all three bosses, two new enemies per stage, keep the code-drawn enemies, designs on a decision page.
+- 2026-11-19, 9:38 PM: "Sunset Static enemy picks: Strobe Pair (Stage 1, Grid Run): B: Crystal lens. Ring Carrier (Stage 1, Grid Run): A: Cargo hauler. Prize Claw (Stage 2, Insert Coin): B: Boxy grabber. Bumper Bot (Stage 2, Insert Coin): C: Saucer bumper."
+- 2026-11-19, 9:57 PM: "you can always download files that you need to and dont need to ask".
 - 2026-11-19, 8:21 PM: "move forward".
 - 2026-11-19, 8:13 PM: "continue with your suggestions, it would be nice to improve the moviement of the ship to be smooother". Beat sync and smoother flying in 0.4.0, then Stage 2.
 - 2026-11-19, 8:11 PM: "it was fun to play throuhg, what is next in the backlog". MVP signed off.
