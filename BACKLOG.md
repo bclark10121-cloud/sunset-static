@@ -1,9 +1,10 @@
 # N19 Sunset Static: backlog
 
-Updated 2026-11-19 (v0.2.0). BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
+Updated 2026-11-19 (v0.3.0). MVP plan complete. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-19: v0.3.0 Look and sound. Pixel art drawn in code, three parallax layers, bursts and sparks, the beat pulse, BC's music picks (Drama, Neon Laser Horizon), Kenney sounds, look check, colorblind check and name check. The MVP plan is done.
 - 2026-11-19: v0.2.0 Pod and bosses. The pod (front, back, launch, call back, block, touch damage), Spread and Bounce, speed chips, shield cells, the Bass Tower, The Big Disc in three phases, Cruise, Standard and Arcade, five assists, a best score per level. Ship 40 px by default.
 - 2026-11-19: v0.1.0 Gray box. Stage 1 from data, auto-scroll, ship, rapid fire, charge beam, five enemy kinds as shapes, shield, beat gates and rewind, settings, 5 slots, Tester tools, start screen, icon, page and Game Shelf card.
 - 2026-11-19: day-one setup: `tools/new_game.py` (explore starter, the closest 2D base), kit 1.16.0, Godot 4.7.2, pillars and art style block in `CLAUDE.md`.
@@ -11,11 +12,12 @@ Updated 2026-11-19 (v0.2.0). BC decides the order. Plan: `PLAN.md` in this folde
 
 ## Now
 
-- BC's check of v0.2.0. Done when BC beats the boss on Standard and says the pod matters.
+- BC's check of v0.3.0. The MVP is done when BC says it looks and sounds right.
+- Then BC picks what comes next from the ideas below.
 
 ## Asked for by BC, not built yet
 
-1. Release 0.3 Look and sound: pixel art, parallax, hit effects, start screen and title track, play music, sound, ten achievements and stats, the title font, the look check and the colorblind check.
+None. The MVP releases are all built.
 
 ## Ideas to choose from (BC picks by number)
 
@@ -33,6 +35,7 @@ Updated 2026-11-19 (v0.2.0). BC decides the order. Plan: `PLAN.md` in this folde
 - Move enemy waves into the kit (K2) once they settle in this game.
 - Move the pod into the kit if another game wants a companion that shields and fires.
 - A side-scroller genre starter (G10.12) from this game.
+- Lock the grid pulse to the music's play position instead of a timer.
 
 ## Not planned (they break the pillars)
 
@@ -52,6 +55,8 @@ Updated 2026-11-19 (v0.2.0). BC decides the order. Plan: `PLAN.md` in this folde
 - 2026-11-19, 4:32 PM: "Sunset Static title font picks: Title font: Audiowide." From the title font decision page.
 - 2026-11-19, 4:35 PM: "Sunset Static pod picks: Pod: 1: Halo Core." From the pod decision page.
 - 2026-11-19, 4:35 PM: "ok with the brief". `BRIEF.md` approved (G4.14).
+- 2026-11-19, 8:02 PM: "Sunset Static music picks: Start screen title track: Drama (Holizna). Play music: Neon Laser Horizon (Kevin MacLeod)." From the music decision page.
+- 2026-11-19, 7:50 PM: "move on to the next release". Picked art drawn in code and a music decision page now. Release 0.3 built.
 - 2026-11-19, 7:16 PM: "played on my phone, motion is pretty good, seems like the ship should be a little smaller. Lets move to next release". 0.1 feel check passed. Ship set to 40 px. Release 0.2 built.
 - 2026-11-19, 6:49 PM: "move to step 2". Release 0.1 built.
 - 2026-11-19, 7:05 PM: OK to clone game-signing for the 0.1 APK.
