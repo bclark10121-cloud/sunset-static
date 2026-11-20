@@ -12,8 +12,8 @@ Updated 2026-11-19 (v0.3.0). MVP plan complete. BC decides the order. Plan: `PLA
 
 ## Now
 
-- BC's check of v0.3.0. The MVP is done when BC says it looks and sounds right.
-- Then BC picks what comes next from the ideas below.
+- MVP done (BC, 2026-11-19, 8:11 PM: "it was fun to play throuhg").
+- BC picks what comes next from the ideas below.
 
 ## Asked for by BC, not built yet
 
@@ -55,6 +55,7 @@ None. The MVP releases are all built.
 - 2026-11-19, 4:32 PM: "Sunset Static title font picks: Title font: Audiowide." From the title font decision page.
 - 2026-11-19, 4:35 PM: "Sunset Static pod picks: Pod: 1: Halo Core." From the pod decision page.
 - 2026-11-19, 4:35 PM: "ok with the brief". `BRIEF.md` approved (G4.14).
+- 2026-11-19, 8:11 PM: "it was fun to play throuhg, what is next in the backlog". MVP signed off.
 - 2026-11-19, 8:02 PM: "Sunset Static music picks: Start screen title track: Drama (Holizna). Play music: Neon Laser Horizon (Kevin MacLeod)." From the music decision page.
 - 2026-11-19, 7:50 PM: "move on to the next release". Picked art drawn in code and a music decision page now. Release 0.3 built.
 - 2026-11-19, 7:16 PM: "played on my phone, motion is pretty good, seems like the ship should be a little smaller. Lets move to next release". 0.1 feel check passed. Ship set to 40 px. Release 0.2 built.
