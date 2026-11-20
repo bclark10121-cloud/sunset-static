@@ -1,9 +1,10 @@
 # N19 Sunset Static: backlog
 
-Updated 2026-11-19 (v0.7.0). MVP plan complete. Two stages, no bosses. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
+Updated 2026-11-19 (v0.8.0). MVP plan complete. Two stages, no bosses, coins and a shop. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-19: v0.8.0 Coins and the shop. Every enemy drops coins by size. A shop after each stage (and in the Menu) sells permanent Ship, Pod, Helper and Look upgrades. Neon arrow charge beam (BC's pick). Beat gates as small diamonds. Wide screens filled edge to edge (G6.21).
 - 2026-11-19: v0.7.0 New enemies, no bosses. BC: no boss battles. The Bass Tower, The Big Disc and The High Score are gone: each stage ends with a final wave section. Four new enemies made with Gemini and Meshy: the Strobe Pair and Ring Carrier in Stage 1, the Prize Claw and Bumper Bot in Stage 2.
 - 2026-11-19: v0.6.0 Stage 2 finished (idea 1, part 2). The High Score boss (Paddle Ball, Snake and Block Drop on its screen), Stage 2 music Bit Quest (BC's pick), music and tempo per stage, Stage 2 colorblind check.
 - 2026-11-19: v0.5.0 Stage 2 "Insert Coin" (idea 1, part 1). The arcade cabinet world, Blips, coin bugs, coins, the checkered floor, Stage 2 opens after The Big Disc, Menu stage rows.
@@ -16,10 +17,11 @@ Updated 2026-11-19 (v0.7.0). MVP plan complete. Two stages, no bosses. BC decide
 
 ## Now
 
+- Staged for the next release (BC, 2026-11-19, 10:32 PM): full screen by default in the browser (G5.11, standards 19b). Pull kit 1.17.0 with `sync_common.sh`: the game goes full screen on the first tap, click or key press, and remembers when the player turns it off. Test: `tests/common` browser run, first click sets full screen. Also take G6.20 (120 frames a second) at the same release.
 - Playtest sweep results (BC, 2026-11-19, 8:59 PM):
   - Good: Stage 2 Insert Coin and the upright view on his phone.
 - MVP done (BC, 2026-11-19, 8:11 PM: "it was fun to play throuhg").
-- BC's check of v0.7.0: the four new enemies and stages without bosses.
+- BC's check of v0.8.0: coins, the shop, the Neon arrow, the gate diamonds and wide screens.
 - Next: BC picks from the ideas below, or Stage 3 (a highway at night or a city in the rain).
 
 ## Asked for by BC, not built yet
@@ -68,6 +70,10 @@ Updated 2026-11-19 (v0.7.0). MVP plan complete. Two stages, no bosses. BC decide
 - 2026-11-19, 9:03 PM: "move on to adding new enemies using the gemini meshy workflow. I dont want boss battles though,, just enemies in each level". Picks: remove all three bosses, two new enemies per stage, keep the code-drawn enemies, designs on a decision page.
 - 2026-11-19, 9:38 PM: "Sunset Static enemy picks: Strobe Pair (Stage 1, Grid Run): B: Crystal lens. Ring Carrier (Stage 1, Grid Run): A: Cargo hauler. Prize Claw (Stage 2, Insert Coin): B: Boxy grabber. Bumper Bot (Stage 2, Insert Coin): C: Saucer bumper."
 - 2026-11-19, 9:57 PM: "you can always download files that you need to and dont need to ask".
+- 2026-11-19, 10:19 PM: "the enemies need to drop coins so i can buy upgrades at the end of each level". Picks: Ship, Pod, Helpers and Looks upgrades, permanent, coins from every enemy by size, the shop after each stage clear.
+- 2026-11-19, 10:20 PM: "why is there a yellow bar down the middle of the screen... i dont like it, change that". The beat gate line became two small diamonds at the screen edges.
+- 2026-11-19, 10:27 PM: "Sunset Static beam pick: Charge beam look: Neon arrow." From the charge beam decision page.
+- 2026-11-19, 10:35 PM: "seems like the game is 4:3 and not 16:9, the effects the background dont go th full width", then "all games need to support 1080p 16:9 screens". Scenery now fills wide screens. New standard G6.21.
 - 2026-11-19, 8:21 PM: "move forward".
 - 2026-11-19, 8:13 PM: "continue with your suggestions, it would be nice to improve the moviement of the ship to be smooother". Beat sync and smoother flying in 0.4.0, then Stage 2.
 - 2026-11-19, 8:11 PM: "it was fun to play throuhg, what is next in the backlog". MVP signed off.
