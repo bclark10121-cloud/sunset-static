@@ -1,22 +1,21 @@
 # N19 Sunset Static: backlog
 
-Updated 2026-11-19 (v0.1.0). BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
+Updated 2026-11-19 (v0.2.0). BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-19: v0.2.0 Pod and bosses. The pod (front, back, launch, call back, block, touch damage), Spread and Bounce, speed chips, shield cells, the Bass Tower, The Big Disc in three phases, Cruise, Standard and Arcade, five assists, a best score per level. Ship 40 px by default.
 - 2026-11-19: v0.1.0 Gray box. Stage 1 from data, auto-scroll, ship, rapid fire, charge beam, five enemy kinds as shapes, shield, beat gates and rewind, settings, 5 slots, Tester tools, start screen, icon, page and Game Shelf card.
 - 2026-11-19: day-one setup: `tools/new_game.py` (explore starter, the closest 2D base), kit 1.16.0, Godot 4.7.2, pillars and art style block in `CLAUDE.md`.
 - 2026-11-19: reviewed R-Type, wrote the MVP plan, this backlog and the draft brief (G4.8, G4.14).
 
 ## Now
 
-- BC's feel check of v0.1.0 on phone, browser and controller. Done when BC says moving and shooting feel right.
-- BC's ship size pick at real size: 32, 48 or 64 px (Tester tools > Ship size).
+- BC's check of v0.2.0. Done when BC beats the boss on Standard and says the pod matters.
 
 ## Asked for by BC, not built yet
 
-1. Release 0.2 Pod and bosses: pod (front, back, launch, recall, block), Spread and Bounce shots, speed chip, shield cells, the Bass Tower mid-boss, The Big Disc boss, three difficulty levels and assists, score and personal best.
-2. Release 0.3 Look and sound: pixel art, parallax, hit effects, start screen and title track, play music, sound, ten achievements and stats, the title font, the look check and the colorblind check.
+1. Release 0.3 Look and sound: pixel art, parallax, hit effects, start screen and title track, play music, sound, ten achievements and stats, the title font, the look check and the colorblind check.
 
 ## Ideas to choose from (BC picks by number)
 
@@ -32,6 +31,7 @@ Updated 2026-11-19 (v0.1.0). BC decides the order. Plan: `PLAN.md` in this folde
 ## Later
 
 - Move enemy waves into the kit (K2) once they settle in this game.
+- Move the pod into the kit if another game wants a companion that shields and fires.
 - A side-scroller genre starter (G10.12) from this game.
 
 ## Not planned (they break the pillars)
@@ -52,6 +52,7 @@ Updated 2026-11-19 (v0.1.0). BC decides the order. Plan: `PLAN.md` in this folde
 - 2026-11-19, 4:32 PM: "Sunset Static title font picks: Title font: Audiowide." From the title font decision page.
 - 2026-11-19, 4:35 PM: "Sunset Static pod picks: Pod: 1: Halo Core." From the pod decision page.
 - 2026-11-19, 4:35 PM: "ok with the brief". `BRIEF.md` approved (G4.14).
+- 2026-11-19, 7:16 PM: "played on my phone, motion is pretty good, seems like the ship should be a little smaller. Lets move to next release". 0.1 feel check passed. Ship set to 40 px. Release 0.2 built.
 - 2026-11-19, 6:49 PM: "move to step 2". Release 0.1 built.
 - 2026-11-19, 7:05 PM: OK to clone game-signing for the 0.1 APK.
 - 2026-11-19, 6:44 PM: "ok, lets go in order starting with 0". N19 starts now, alongside the standards catch-up. Moved from `ideas/n19/` to `games/sunset-static/` through `tools/new_game.py`.
