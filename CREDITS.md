@@ -6,7 +6,9 @@ Sunset Static is an original game. The stage, enemies, gameplay and start screen
 
 - Start screen: "Drama" by Holizna, from the Retro Wave Collection on OpenGameArt.org (https://opengameart.org/content/retro-wave-collection). CC0 1.0.
   Changes: trimmed to the first 150 seconds with a 4 second crossfade loop and level-matched.
-- Play: "Neon Laser Horizon" by Kevin MacLeod (incompetech.com, https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2000023), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from MP3 to Ogg Vorbis, credit added to the Ogg comments. Changed here: trimmed to the first 150 seconds with a 4 second crossfade loop and level-matched.
+- Stage 1 play: "Neon Laser Horizon" by Kevin MacLeod (incompetech.com, https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2000023), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from MP3 to Ogg Vorbis, credit added to the Ogg comments. Changed here: trimmed to the first 150 seconds with a 4 second crossfade loop and level-matched.
+
+- Stage 2 play: "Bit Quest" by Kevin MacLeod (incompetech.com, https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500073), licensed Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Changed by Patch: converted from MP3 to Ogg Vorbis, credit added to the Ogg comments. Changed here: trimmed to the first 150 seconds with a 4 second crossfade loop and level-matched. BC's pick, 2026-11-19 (decision page `2026-11-19-n19-stage2-music`).
 
 ## Sounds (found through the Patch.gg asset library)
 
