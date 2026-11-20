@@ -1,9 +1,10 @@
 # N19 Sunset Static: backlog
 
-Updated 2026-11-19 (v0.3.0). MVP plan complete. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
+Updated 2026-11-19 (v0.4.0). MVP plan complete. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-19: v0.4.0 Smoother flying and beat sync (idea 2). Ease in and out, smoothed drags, screen-pixel drawing, steadier tilt. Waves, enemy shots and bosses on the beat of the play music. Grid pulse locked to the music.
 - 2026-11-19: v0.3.0 Look and sound. Pixel art drawn in code, three parallax layers, bursts and sparks, the beat pulse, BC's music picks (Drama, Neon Laser Horizon), Kenney sounds, look check, colorblind check and name check. The MVP plan is done.
 - 2026-11-19: v0.2.0 Pod and bosses. The pod (front, back, launch, call back, block, touch damage), Spread and Bounce, speed chips, shield cells, the Bass Tower, The Big Disc in three phases, Cruise, Standard and Arcade, five assists, a best score per level. Ship 40 px by default.
 - 2026-11-19: v0.1.0 Gray box. Stage 1 from data, auto-scroll, ship, rapid fire, charge beam, five enemy kinds as shapes, shield, beat gates and rewind, settings, 5 slots, Tester tools, start screen, icon, page and Game Shelf card.
@@ -13,7 +14,8 @@ Updated 2026-11-19 (v0.3.0). MVP plan complete. BC decides the order. Plan: `PLA
 ## Now
 
 - MVP done (BC, 2026-11-19, 8:11 PM: "it was fun to play throuhg").
-- BC picks what comes next from the ideas below.
+- BC's check of v0.4.0: smoother flying and beat sync.
+- Next: idea 1, Stage 2 (BC, 2026-11-19, 8:13 PM: "continue with your suggestions").
 
 ## Asked for by BC, not built yet
 
@@ -22,7 +24,6 @@ None. The MVP releases are all built.
 ## Ideas to choose from (BC picks by number)
 
 1. Stage 2 with a new neon setting: a highway at night, an arcade cabinet world or a city in the rain.
-2. Beat sync: enemy waves and bullet patterns timed to the music.
 3. More pod shots, such as a ground-hugging shot and a reflect shot.
 4. Boss rush mode once there are three bosses.
 5. Ship select, each ship with its own charge beam.
@@ -35,7 +36,7 @@ None. The MVP releases are all built.
 - Move enemy waves into the kit (K2) once they settle in this game.
 - Move the pod into the kit if another game wants a companion that shields and fires.
 - A side-scroller genre starter (G10.12) from this game.
-- Lock the grid pulse to the music's play position instead of a timer.
+- A kit helper for the music position (the game reads the kit's player today).
 
 ## Not planned (they break the pillars)
 
@@ -55,6 +56,7 @@ None. The MVP releases are all built.
 - 2026-11-19, 4:32 PM: "Sunset Static title font picks: Title font: Audiowide." From the title font decision page.
 - 2026-11-19, 4:35 PM: "Sunset Static pod picks: Pod: 1: Halo Core." From the pod decision page.
 - 2026-11-19, 4:35 PM: "ok with the brief". `BRIEF.md` approved (G4.14).
+- 2026-11-19, 8:13 PM: "continue with your suggestions, it would be nice to improve the moviement of the ship to be smooother". Beat sync and smoother flying in 0.4.0, then Stage 2.
 - 2026-11-19, 8:11 PM: "it was fun to play throuhg, what is next in the backlog". MVP signed off.
 - 2026-11-19, 8:02 PM: "Sunset Static music picks: Start screen title track: Drama (Holizna). Play music: Neon Laser Horizon (Kevin MacLeod)." From the music decision page.
 - 2026-11-19, 7:50 PM: "move on to the next release". Picked art drawn in code and a music decision page now. Release 0.3 built.
