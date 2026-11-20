@@ -15,6 +15,7 @@ Updated 2026-11-19 (v0.6.0). MVP plan complete. Stage 2 complete. BC decides the
 
 ## Now
 
+- Playtest sweep (2026-11-19): every check and judgment call for this game is on https://bclark10121-cloud.github.io/bc-decisions/2026-11-19-playtest-sweep/. BC's pasted picks replace this list.
 - MVP done (BC, 2026-11-19, 8:11 PM: "it was fun to play throuhg").
 - BC's check of v0.6.0: The High Score and Bit Quest.
 - Next: BC picks from the ideas below, or Stage 3 (a highway at night or a city in the rain).
