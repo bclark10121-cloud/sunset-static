@@ -22,7 +22,8 @@ Sunset Static is an original game. The stage, enemies, gameplay and start screen
 - Enemies, pickups, shots, bursts and walls are drawn in code by `tools/make_sprites.py` (0.3). Original designs.
 - Backgrounds (0.9, Stage 1, Stage 2 and the start screen) painted with Google Gemini (Nano Banana Pro) from the game's own prompts, 2026-11-22. Cut and sized by `tools/make_hd_bg.py`.
 - The Strobe Pair, Ring Carrier, Prize Claw and Bumper Bot (0.7) are original designs: concept art through Gemini, 3D models through Meshy (Private licence), made for the game from original reference art and rendered to sprites by `tools/render_enemy_side.py` and `tools/make_enemy_sprites.py`.
-- The player ship and pod are original designs: concept art through Gemini, 3D models through Meshy (Private licence), rendered to sprites by `tools/render_ship_side.py` and `tools/render_pod.py`.
+- The player ship and pod are original designs: concept art through Gemini, 3D models through Meshy (Private licence). The 0.1 to 0.9 sprites were rendered from the models by `tools/render_ship_side.py` and `tools/render_pod.py`.
+- The HD ship and pod (0.10) painted with Google Gemini (Nano Banana Pro) from the game's own prompts, 2026-11-22. Keyed, cut and sized by `tools/make_hd_sprites.py`.
 
 ## Fonts
 

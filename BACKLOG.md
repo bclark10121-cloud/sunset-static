@@ -1,9 +1,10 @@
 # N19 Sunset Static: backlog
 
-Updated 2026-11-22 (v0.9.0). MVP plan complete. Two stages, no bosses, coins and a shop, HD painted backgrounds. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
+Updated 2026-11-22 (v0.10.0). MVP plan complete. Two stages, no bosses, coins and a shop, HD painted backgrounds, HD ship and pod. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-22: v0.10.0 HD painted ship and pod (BC: "we need a hd graphic for the ship, it looks lo resolution compared to the background now", then picked "HD paint, brighter neon" for the ship and "HD paint" for the pod). `tools/make_hd_sprites.py`. Hitboxes unchanged.
 - 2026-11-22: v0.9.0 HD painted backgrounds (BC: "add higher quality images for the background", then picked HD paint for Stage 1, Stage 2 and the start screen and "Live neon lines, upgraded" for the floors). Gemini layers through the art workflow (G8.8), cut by `tools/make_hd_bg.py`. Per stage tints. Kit 1.27.0, full screen by default in the browser, 120 frames a second, vibrate permission.
 - 2026-11-19: v0.8.0 Coins and the shop. Every enemy drops coins by size. A shop after each stage (and in the Menu) sells permanent Ship, Pod, Helper and Look upgrades. Neon arrow charge beam (BC's pick). Beat gates as small diamonds. Wide screens filled edge to edge (G6.21).
 - 2026-11-19: v0.7.0 New enemies, no bosses. BC: no boss battles. The Bass Tower, The Big Disc and The High Score are gone: each stage ends with a final wave section. Four new enemies made with Gemini and Meshy: the Strobe Pair and Ring Carrier in Stage 1, the Prize Claw and Bumper Bot in Stage 2.
@@ -18,7 +19,7 @@ Updated 2026-11-22 (v0.9.0). MVP plan complete. Two stages, no bosses, coins and
 
 ## Now
 
-- BC's check of v0.9.0: the paintings, readability over them, the floor pulse, the start screen and 120 frames a second on his phone.
+- BC's check of v0.10.0: the HD ship and pod, plus the 0.9 paintings, readability, the floor pulse, the start screen and 120 frames a second on his phone.
 - Playtest sweep results (BC, 2026-11-19, 8:59 PM): good: Stage 2 Insert Coin and the upright view on his phone.
 - MVP done (BC, 2026-11-19, 8:11 PM: "it was fun to play throuhg").
 - Next: BC picks from the ideas below, or Stage 3 (a highway at night or a city in the rain).
@@ -29,6 +30,7 @@ Updated 2026-11-22 (v0.9.0). MVP plan complete. Two stages, no bosses, coins and
 
 ## Ideas to choose from (BC picks by number)
 
+10. HD paint for the enemies, coins, pickups and shots, so everything matches the HD ship and backgrounds (the pixel enemies stand out next to them now). Same route: Gemini paintings of the approved designs, picked on a decision page.
 3. More pod shots, such as a ground-hugging shot and a reflect shot.
 9. Remake the eight code-drawn enemies (drifter, mini, turret, charger, splitter, shell, Blip, coin bug) with Gemini and Meshy, like the 0.7 enemies (BC, 2026-11-19: keep them for now).
 5. Ship select, each ship with its own charge beam.
@@ -42,6 +44,7 @@ Updated 2026-11-22 (v0.9.0). MVP plan complete. Two stages, no bosses, coins and
 - Lossy WebP import for the HD backgrounds if the web build size (56 MB) or phone memory becomes a problem.
 - The start screen redraws its painting every frame even with Reduce motion on. A small saving at 120 frames a second.
 - A test that checks the Reduce flashing setting reaches the start screen (today only the play floors and calm are tested).
+- Slow the pod's spin or drop its cyan beat arc now the pod is HD, if it reads busy in play.
 - An HD painted Stage 3 when BC picks it, made the same way (sky, far row, near row on a green screen).
 - Move enemy waves into the kit (K2) once they settle in this game.
 - Move the pod into the kit if another game wants a companion that shields and fires.
