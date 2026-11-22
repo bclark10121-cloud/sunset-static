@@ -1,9 +1,10 @@
 # N19 Sunset Static: backlog
 
-Updated 2026-11-19 (v0.8.0). MVP plan complete. Two stages, no bosses, coins and a shop. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
+Updated 2026-11-22 (v0.9.0). MVP plan complete. Two stages, no bosses, coins and a shop, HD painted backgrounds. BC decides the order. Plan: `PLAN.md` in this folder. Brief: `BRIEF.md`.
 
 ## Done
 
+- 2026-11-22: v0.9.0 HD painted backgrounds (BC: "add higher quality images for the background", then picked HD paint for Stage 1, Stage 2 and the start screen and "Live neon lines, upgraded" for the floors). Gemini layers through the art workflow (G8.8), cut by `tools/make_hd_bg.py`. Per stage tints. Kit 1.27.0, full screen by default in the browser, 120 frames a second, vibrate permission.
 - 2026-11-19: v0.8.0 Coins and the shop. Every enemy drops coins by size. A shop after each stage (and in the Menu) sells permanent Ship, Pod, Helper and Look upgrades. Neon arrow charge beam (BC's pick). Beat gates as small diamonds. Wide screens filled edge to edge (G6.21).
 - 2026-11-19: v0.7.0 New enemies, no bosses. BC: no boss battles. The Bass Tower, The Big Disc and The High Score are gone: each stage ends with a final wave section. Four new enemies made with Gemini and Meshy: the Strobe Pair and Ring Carrier in Stage 1, the Prize Claw and Bumper Bot in Stage 2.
 - 2026-11-19: v0.6.0 Stage 2 finished (idea 1, part 2). The High Score boss (Paddle Ball, Snake and Block Drop on its screen), Stage 2 music Bit Quest (BC's pick), music and tempo per stage, Stage 2 colorblind check.
@@ -17,11 +18,9 @@ Updated 2026-11-19 (v0.8.0). MVP plan complete. Two stages, no bosses, coins and
 
 ## Now
 
-- Staged for the next release (BC, 2026-11-19, 10:32 PM): full screen by default in the browser (G5.11, standards 19b). Pull kit 1.17.0 with `sync_common.sh`: the game goes full screen on the first tap, click or key press, and remembers when the player turns it off. Test: `tests/common` browser run, first click sets full screen. Also take G6.20 (120 frames a second) at the same release.
-- Playtest sweep results (BC, 2026-11-19, 8:59 PM):
-  - Good: Stage 2 Insert Coin and the upright view on his phone.
+- BC's check of v0.9.0: the paintings, readability over them, the floor pulse, the start screen and 120 frames a second on his phone.
+- Playtest sweep results (BC, 2026-11-19, 8:59 PM): good: Stage 2 Insert Coin and the upright view on his phone.
 - MVP done (BC, 2026-11-19, 8:11 PM: "it was fun to play throuhg").
-- BC's check of v0.8.0: coins, the shop, the Neon arrow, the gate diamonds and wide screens.
 - Next: BC picks from the ideas below, or Stage 3 (a highway at night or a city in the rain).
 
 ## Asked for by BC, not built yet
@@ -39,6 +38,11 @@ Updated 2026-11-19 (v0.8.0). MVP plan complete. Two stages, no bosses, coins and
 
 ## Later
 
+- Kit pieces off in this game since the 1.27.0 pull (K rule 3), each needs BC's yes: phone fit (`touch_min_dp`), the safe area, the Android back swipe, the title focus guard, `glow2d.gd` halos, `fx2d.gd` particles, `haptics.gd` buzz styles (the game calls no buzz yet, so Rumble does nothing on the phone), `score.gd` (K12, G4.17 rollout), `tester_notes.gd` (T1), `ShooterCore.Waves` (K2) and the easy pack (K8).
+- Lossy WebP import for the HD backgrounds if the web build size (56 MB) or phone memory becomes a problem.
+- The start screen redraws its painting every frame even with Reduce motion on. A small saving at 120 frames a second.
+- A test that checks the Reduce flashing setting reaches the start screen (today only the play floors and calm are tested).
+- An HD painted Stage 3 when BC picks it, made the same way (sky, far row, near row on a green screen).
 - Move enemy waves into the kit (K2) once they settle in this game.
 - Move the pod into the kit if another game wants a companion that shields and fires.
 - A side-scroller genre starter (G10.12) from this game.
